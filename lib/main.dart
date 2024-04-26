@@ -1,4 +1,4 @@
-import 'package:chat/view/chat_screen.dart';
+import 'package:chat/view/splashscreen/splash_screen.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 void main() {
@@ -16,7 +16,7 @@ class ChatApp extends StatelessWidget {
         primarySwatch: Colors.blue,
         visualDensity: VisualDensity.adaptivePlatformDensity,
       ),
-      home: const ChatScreen(),
+      home: const SplashScreen(),
     );
   }
 }
