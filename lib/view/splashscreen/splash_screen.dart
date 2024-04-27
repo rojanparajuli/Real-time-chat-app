@@ -1,5 +1,5 @@
 import 'dart:async';
-import 'package:chat/view/chat/chat_screen.dart';
+import 'package:chat/view/login/login_screen.dart';
 import 'package:flutter/material.dart';
 
 
@@ -19,9 +19,9 @@ class _SplashScreenState extends State<SplashScreen> {
   }
 
   void  login () async  { 
-    Timer (const Duration(seconds: 3), () {
+    Timer (const Duration(seconds: 5), () {
       Navigator.of(context).pushReplacement(
-        MaterialPageRoute(builder: (context) => const ChatScreen()),
+        MaterialPageRoute(builder: (context) =>  AuthScreen(onTap: () {  },)),
       );
     });
   }

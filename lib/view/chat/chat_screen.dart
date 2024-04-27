@@ -1,5 +1,5 @@
-import 'package:chat/view/message.dart';
-import 'package:chat/view/message_composer.dart';
+import 'package:chat/view/chat/message.dart';
+import 'package:chat/view/chat/message_composer.dart';
 import 'package:flutter/material.dart';
 
 class ChatScreen extends StatelessWidget {
